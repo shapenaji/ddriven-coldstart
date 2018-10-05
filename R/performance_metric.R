@@ -6,7 +6,7 @@ weights_lookup =
   )
 
 norm_coefficient = function(true_mean_consumption, weight) {
-  weight / true_mean_consumption_i 
+  weight / true_mean_consumption
 }
 
 NMAE = function(predicted, actual, true_mean_consumption, pred_type) {
